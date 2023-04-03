@@ -60,7 +60,7 @@ const ModalSingle = ({ jsonMusic = {}, closeModal }) => {
                 <div className="amplitude-prev" id="previous"></div>
                 <div className="amplitude-play-pause" id="play-pause"></div>
                 <div className="amplitude-next" id="next"></div>
-                {/* <div className="amplitude-repeat" id="repeat"></div> */}
+                {}
               </div>
             </div>
           </div>

@@ -17,16 +17,6 @@ const Footer = ({
 }) => {
   const inicio = document.querySelector(".inicio");
   const volumen = document.getElementById("parlante");
-  // let contador = 0
-  // const reproducir = ()=>{
-  //     if(contador===0){
-  //         contador =1
-  //         inicio.play()
-  //     }else{
-  //         contador =0
-  //         inicio.pause()
-  //     }
-  // }
 
   const subirVolumen = () => {
     inicio.volume = volumen.value / 100;

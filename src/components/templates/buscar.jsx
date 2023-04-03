@@ -24,7 +24,7 @@ const Buscar = (props) => {
           </div>
         </div>
         <div className="d-flex align-items-center ms-auto me-5">
-          <img src={usuario} className="me-2" />
+          <img src={usuario} alt="Icono de usuario" className="me-2" />
           <p className="mt-3">Antonio T</p>
         </div>
       </div>
